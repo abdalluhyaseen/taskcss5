@@ -1,0 +1,324 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+/* task 1 */
+
+.main{
+display: grid;
+grid-template-columns: repeat(4,250px);
+gap:20px;
+
+}
+
+.main div{
+background-color: blue;
+height: 250px;}
+
+/* task 2 */
+
+/* ############################################### */
+.main1{
+    
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(3,400px);
+    gap:20px 20px;
+    }
+
+/* ############################################### */
+
+/* task 3 */
+
+.main3{
+display: grid;
+grid-template-columns: repeat(3,200px);
+grid-template-rows: repeat(6,100px);
+gap: 20px;
+}
+.main3 div{
+text-align: center;
+border-radius: 10px;
+
+}
+.main3 .hed{
+grid-column: 1/-1;
+background-color: yellow;
+}
+.main3 .sid{
+grid-row: 2/5;
+background-color: orange;
+}
+.main3 .nav{
+    grid-column: 2/4;
+background-color: blue;
+}
+.main3 .art{
+    grid-column: 2/4;
+    grid-row: 3/5;
+background-color: gainsboro;
+}
+.main3 .footer{
+    grid-column: 1/-1;
+background-color: darkblue;
+}
+/* ############################################### */
+/* task 4 */
+
+.main4{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+width: 50%;
+gap: 20px;
+}
+
+/* ############################################### */
+/* task 5 */
+
+.main5{
+    display: grid;
+    grid-template-columns: repeat(5,150px);
+   grid-template-rows: repeat(3,150px);
+   gap: 5px;
+    }
+.main5 div{
+border-radius: 10px;
+
+
+}
+
+    .main5 .sub1{
+background-color: blue;
+grid-column: 1/3;
+grid-row: 1/3;
+    }
+
+    .main5 .sub2{
+background-color: darkblue;
+grid-column: 3/-1;
+    }
+.main5 .sub3{
+grid-row: 3/4;
+grid-column: 1/3;
+background-color: blueviolet;
+}
+.main5 .sub4{
+background-color: aquamarine;
+grid-column: 3/5;
+grid-row: 2/4;
+}
+.main5 .sub5{
+    background-color: aquamarine;
+
+}
+.main5 .sub6{
+    background-color:deeppink;
+
+}
+/* ############################################### */
+/* task 6 */
+
+
+.main6{
+height: 200px;
+    background: linear-gradient(to right, #e03c78, #971ca4);
+display: grid;
+grid-template-columns: repeat(8,1fr);
+gap: 10px;
+width: 70%;
+}
+
+.main6 div{
+background-color: gold;
+height: 20px;
+margin: 5px;
+text-align: center;
+}
+.main6 .sub3{
+    grid-column: 1/-1;
+    grid-row: 4/5;
+}
+/* ############################################### */
+/* task 7 */
+
+.main7{   
+    display: grid;
+    border: solid black 2px;
+    margin: 10px;
+    }
+    .main7 p{
+        padding: 10px;
+    }
+.main7 .main-content{
+    margin: 10px;
+padding:20px;
+    border: solid black 2px;
+    
+}
+.main7 .main-content .teem div{
+background-color: gray;
+
+
+}
+
+
+.main7 .main-content .teem{
+    display: grid;
+grid-template-columns: repeat(3,100px);
+gap: 30px;
+justify-content: center;
+}
+/* ############################################### */
+/* task 8 */
+
+.main8{
+display: grid;
+grid-template-columns: repeat(3,200px);
+grid-template-rows: repeat(3,200px);
+gap: 10px 10px;
+justify-content: center;
+padding: 20px;
+}
+.main8 div img{
+
+width: 200px;
+height: 200px;
+
+}
+/* ############################################### */
+
+/* task 9 */
+
+
+.main9 div{
+   
+width: 300px;
+height: 300px;
+
+}
+
+.main9 .top{
+background-color: red;
+position: absolute;
+z-index: -1;
+}
+
+.main9 .bottom{
+background-color: blue;
+position: absolute;
+top: 150px;
+left: 150px;
+z-index: -2;
+}
+
+.main9 .middle{
+  background-color: green;
+    position: absolute;
+top: 300px;
+left: 300px;
+z-index: -3;
+}
+
+
+/* ############################################### */
+
+/* task 10 */
+.main10{
+display: grid;
+background-color: gainsboro;
+height: 100vh;
+justify-items: center;
+align-items: center;
+}
+
+.main10 .hed{
+    width: 700px;
+    height:500px;
+display: grid;
+border: solid black; 
+background-color: white;
+}
+.main10 .hed header{
+    padding:  20px;
+display: grid;
+grid-template-columns: 50px 300px;
+} 
+
+.main10 .hed .red{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: red;
+
+}
+
+.end{
+  margin-left: 15px;
+    background-color: rgb(142, 0, 0);
+    height: 250px;
+    width: 670px;
+}
+
+.between{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+
+.small{
+width: 350px;
+}
+
+/* ############################################### */
+/* task 11 */
+.main11{
+    width: 100%;
+background-color: red;
+display: grid;
+height: 800px;
+grid-template-columns: repeat(4,auto-fill);
+grid-template-rows: repeat(3,auto-fill);
+
+margin: 2px;
+}
+
+.item1{
+display: grid;
+gap:10px 10px;
+margin: 2px;
+
+}
+.item2{
+background-color: rgb(167, 163, 163);
+display: grid;
+grid-template-columns: repeat(4,1fr);
+margin: 2px;
+}
+.sub1{
+margin: 2px;
+gap: 5px;
+}
+
+.item5{
+    margin: 2px;
+    gap: 10px;
+    background-color: gray;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+
+}
+
+
+
+
+
+
+
+
+
+
+
