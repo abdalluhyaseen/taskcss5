@@ -274,51 +274,115 @@ width: 350px;
 
 /* ############################################### */
 /* task 11 */
-.main11{
-    width: 100%;
-background-color: red;
-display: grid;
-height: 800px;
-grid-template-columns: repeat(4,auto-fill);
-grid-template-rows: repeat(3,auto-fill);
 
-margin: 2px;
-}
 
-.item1{
-display: grid;
-gap:10px 10px;
-margin: 2px;
-
-}
-.item2{
-background-color: rgb(167, 163, 163);
-display: grid;
-grid-template-columns: repeat(4,1fr);
-margin: 2px;
-}
-.sub1{
-margin: 2px;
-gap: 5px;
-}
-
-.item5{
-    margin: 2px;
-    gap: 10px;
+.main13{
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 800px;
+ 
+   
+    }
+    
+    .main13{
+    display: grid;
+    
+    
+    }
+    .sub1{
     background-color: gray;
-display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-template-rows: repeat(2,1fr);
+   
+    height: 200px;
+    margin: 5px;
+  display: grid;
+   grid-template-columns: repeat(2,1fr);
+  
+    }
+    .sub14{
+    
+    background-color: rgb(237, 239, 240);
+    width: 95px;
+    margin: 2px;
+    }
+    
+    .sub20{
+        background-color: rgb(237, 239, 240);   
+    margin: 2px;
+    }
 
-}
-
-
-
-
-
-
-
-
-
-
+    .sub112{
+        background-color: gray;
+       
+        height: 200px;
+      gap: 2px;
+      display: grid;
+       grid-template-rows: 1fr 1fr;
+      
+      
+        }
+    
+    .sub21{
+        background-color: rgb(237, 239, 240);
+ 
+    margin: 2px;
+    width: 95px;
+    
+    }
+/* ############################################### */
+    
+/* task 12 */
+    
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+    width: 40%;
+ }
+ 
+ .product{
+     border: 2px solid;
+     width: 200px;
+     height:340px ;
+    border-radius: 10px;
+ }
+ 
+ .input{
+     text-align: center;
+     border-radius: 5px;
+     margin-top: 80px;
+ }
+ 
+ .img9{
+ 
+     text-align: center;
+ 
+ }
+ 
+ .product1{
+     border: 2px solid;
+     width: 200px;
+     height:340px ;
+    border-radius: 10px;
+ }
+  
+ .product2{
+     border: 2px solid;
+     width: 200px;
+     height:340px ;
+    border-radius: 10px;
+ }
+ 
+ .product3{
+     border: 2px solid;
+     width: 200px;
+     height:340px ;
+    border-radius: 10px;
+ }
+ 
+ .product4{
+     border: 2px solid;
+     width: 200px;
+     height:340px ;
+    border-radius: 10px;
+ }
 
